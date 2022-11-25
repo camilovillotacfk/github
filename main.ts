@@ -21,4 +21,4 @@ input.onGesture(Gesture.Shake, function () {
 let niñas = 0
 let total = 0
 let niños = 0
-basic.showString("Hello!")
+basic.showString("Hola")
