@@ -13,6 +13,11 @@ input.onButtonPressed(Button.B, function () {
     basic.showNumber(niñas)
     basic.clearScreen()
 })
+input.onGesture(Gesture.Shake, function () {
+    niñas = 0
+    niños = 0
+    total = 0
+})
 let niñas = 0
 let total = 0
 let niños = 0
